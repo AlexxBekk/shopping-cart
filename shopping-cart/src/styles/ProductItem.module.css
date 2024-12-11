@@ -1,0 +1,31 @@
+.item {
+  width: 160px;
+}
+
+.itemBody {
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.itemImage {
+  width: 100%;
+  height: 160px;
+  background-color: var(--color-neutral);
+  border-radius: 5px;
+}
+
+.itemPrice {
+  font-weight: 600;
+  color: var(--color-pos);
+}
+
+.btnAdd{
+  width: 100%;
+  margin: 16px 0 0 0;
+  border: 1px var(--color-pos) solid;
+  color: var(--color-pos);
+  background: transparent;
+}
+
